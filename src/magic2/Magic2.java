@@ -80,15 +80,6 @@ public class Magic2 {
                 e.executeEffects();
                 
             }
-
-            System.out.println("The field of " + p1.getName() + " is " + p1.getField());
-            System.out.println("The Hand of " + p1.getName() + " is " + p1.getHand());
-            System.out.println("The Deck of " + p1.getName() + " is " + p1.getDeck());
-
-            System.out.println("The field of " + p2.getName() + " is " + p2.getField());
-            System.out.println("The Hand of " + p2.getName() + " is " + p2.getHand());
-            System.out.println("The Deck of " + p2.getName() + " is " + p2.getDeck());
-
             current++;
 
             //aggiungo o tolgo fasi a seconda della carta che ho giocato

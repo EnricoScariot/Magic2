@@ -47,8 +47,10 @@ public class MainPhase implements Phase{
                       enemy.responde(i);
                       
                      
-                    }  
-         current1=-1;               
+                    }
+                 if (current1==1)
+                         current1=-1;
+                
          while(current1 != 0 && current1!= 1){
                     System.out.println(current.getName()+ " did you want to play an instant? (0/1)");
                     current1 = sc.nextInt();
